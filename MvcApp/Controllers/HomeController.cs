@@ -14,6 +14,7 @@ namespace MvcApp.Controllers
         ibkyazilimContext dbconntext = new ibkyazilimContext();
         public ActionResult Index()
         {
+            Session["Kullanici"] = "İbrahim KÜLAH";
             return View();
         }
         public ActionResult KullanicilariListele ()
