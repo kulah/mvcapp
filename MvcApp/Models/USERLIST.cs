@@ -13,5 +13,6 @@ namespace MvcApp.Models
         public string tip { get; set; }
         public string user_grup { get; set; }
         public string kurum { get; set; }
+        public string durum { get; set; }
     }
 }
