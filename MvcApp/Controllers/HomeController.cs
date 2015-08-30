@@ -21,5 +21,9 @@ namespace MvcApp.Controllers
         {
             return View(dbconntext.USERLISTs.ToList());
         }
+        public ActionResult MenuList()
+        {
+            return View();
+        }
     }
 }
