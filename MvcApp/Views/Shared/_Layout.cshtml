@@ -168,7 +168,9 @@
             </nav>
         </header>
         <!-- Sol Menu Sütünu -->
-        @{Html.RenderAction("MenuList", "Home");}
+        @{
+            Html.RenderAction("MenuList", "Home");
+         }
         <!-- Orta Panel Boşluk -->
         <div class="content-wrapper">
             <!-- Orta Başlık  -->
