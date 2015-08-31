@@ -11,7 +11,7 @@ namespace MvcApp.Controllers
     {
         //
         // GET: /Home/
-        ibkyazilimContext dbconntext = new ibkyazilimContext();
+        ibkyazil_mssqlContext dbconntext = new ibkyazil_mssqlContext();
         public ActionResult Index()
         {
             Session["Kullanici"] = "İbrahim KÜLAH";

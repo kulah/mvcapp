@@ -149,7 +149,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\ibkyazilimContext.cs" />
+    <Compile Include="Models\ibkyazil_mssqlContext.cs" />
     <Compile Include="Models\Mapping\TAN_KURUMMap.cs" />
     <Compile Include="Models\Mapping\USERLISTMap.cs" />
     <Compile Include="Models\TAN_KURUM.cs" />
@@ -1983,6 +1983,7 @@
     <Content Include="Views\Home\KullanicilariListele.cshtml" />
     <Content Include="Views\Kullanici\UyeGiris.cshtml" />
     <Content Include="Views\Home\MenuList.cshtml" />
+    <Content Include="Views\Kullanici\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

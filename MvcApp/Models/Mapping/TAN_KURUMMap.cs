@@ -11,9 +11,6 @@ namespace MvcApp.Models.Mapping
             this.HasKey(t => t.ID);
 
             // Properties
-            this.Property(t => t.ID)
-                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
-
             this.Property(t => t.K_KODU)
                 .HasMaxLength(50);
 

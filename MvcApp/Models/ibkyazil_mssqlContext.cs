@@ -4,15 +4,15 @@ using MvcApp.Models.Mapping;
 
 namespace MvcApp.Models
 {
-    public partial class ibkyazilimContext : DbContext
+    public partial class ibkyazil_mssqlContext : DbContext
     {
-        static ibkyazilimContext()
+        static ibkyazil_mssqlContext()
         {
-            Database.SetInitializer<ibkyazilimContext>(null);
+            Database.SetInitializer<ibkyazil_mssqlContext>(null);
         }
 
-        public ibkyazilimContext()
-            : base("Name=ibkyazilimContext")
+        public ibkyazil_mssqlContext()
+            : base("Name=ibkyazil_mssqlContext")
         {
         }
 
