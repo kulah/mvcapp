@@ -14,5 +14,7 @@ namespace MvcApp.Models
         public string user_grup { get; set; }
         public string kurum { get; set; }
         public string durum { get; set; }
+        public DateTime etar { get; set; }
+        public string ekul { get; set; }
     }
 }
