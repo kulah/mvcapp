@@ -35,10 +35,10 @@ namespace MvcApp.Models.Mapping
             this.Property(t => t.durum)
                 .IsFixedLength()
                 .HasMaxLength(1);
-            this.Property(t => t.etar);
+            //this.Property(t => t.etar);
 
-            this.Property(t => t.ekul)
-                .HasMaxLength(50);
+            //this.Property(t => t.ekul)
+            //    .HasMaxLength(50);
             // Table & Column Mappings
             this.ToTable("USERLIST");
             this.Property(t => t.id).HasColumnName("id");
@@ -50,8 +50,8 @@ namespace MvcApp.Models.Mapping
             this.Property(t => t.user_grup).HasColumnName("user_grup");
             this.Property(t => t.kurum).HasColumnName("kurum");
             this.Property(t => t.durum).HasColumnName("durum");
-            this.Property(t => t.etar).HasColumnName("etar");
-            this.Property(t => t.ekul).HasColumnName("ekul");
+            //this.Property(t => t.etar).HasColumnName("etar");
+            //this.Property(t => t.ekul).HasColumnName("ekul");
         }
     }
 }

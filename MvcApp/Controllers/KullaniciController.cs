@@ -31,7 +31,7 @@ namespace MvcApp.Controllers
             model.password = form["sifre"].Trim();
             model.adsoyad = form["adisoyadi"].Trim();
             model.durum = "+";
-            model.etar = DateTime.Now;
+            //model.etar = DateTime.Now;
             db.USERLISTs.Add(model);
             db.SaveChanges();
             return View();
